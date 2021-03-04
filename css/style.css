@@ -556,8 +556,8 @@ h2 {
 }
 
 .things .slick-center {
-  -webkit-box-shadow: 0px 7px 40px black;
-          box-shadow: 0px 7px 40px black;
+  -webkit-box-shadow: 0px 5px 10px #636363;
+          box-shadow: 0px 5px 10px #636363;
   -webkit-transition: all 0.3s ease 0.1s;
   transition: all 0.3s ease 0.1s;
   border: 1px solid #2a1b61;
