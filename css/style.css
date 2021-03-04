@@ -26,7 +26,7 @@ body {
 .stylization:before {
   content: '';
   z-index: -1;
-  background-image: url("http://api.thumbr.it/whitenoise-200x200.png?background=ffffff00&noise=000000&density=70&opacity=30");
+  background-image: url("../img/whitenoise-200x200.png");
   background-repeat: repeat;
   position: absolute;
   left: 0;
@@ -244,7 +244,7 @@ p {
   font-style: italic;
   text-transform: lowercase;
   letter-spacing: 10px;
-  font-family: Krona One;
+  font-family: Red Hat Text;
 }
 
 .bio__content h2 {
@@ -394,6 +394,11 @@ h2 {
   width: 300px;
   margin-bottom: 40px;
   display: block;
+}
+
+.button {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .things {
@@ -732,6 +737,8 @@ h2 {
 }
 
 .footer__media {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
   display: block;
   width: 120px;

@@ -20,7 +20,7 @@ body{
 	&:before{
 		content: '';
 		z-index: -1;
-		background-image: url("http://api.thumbr.it/whitenoise-200x200.png?background=ffffff00&noise=000000&density=70&opacity=30");
+		background-image: url("../img/whitenoise-200x200.png");
 		background-repeat: repeat;
 		position: absolute;
 		left: 0;
@@ -189,7 +189,7 @@ p{
 			font-style: italic;
 			text-transform: lowercase;
 			letter-spacing: 10px;
-			font-family: Krona One;
+			font-family: Red Hat Text;
 		}
 		& h2{
 			text-align: left;
@@ -314,6 +314,9 @@ h2{
 	}
 	padding-bottom: 40px;
 }
+.button{
+	transition: all 0.3s;
+}
 
 .things{
 	overflow: hidden;
@@ -435,6 +438,8 @@ h2{
 
 		
 	}
+
+	
 	& .slick-center{
 		box-shadow: 0px 7px 40px black;
 		transition: all 0.3s ease 0.1s;
@@ -571,6 +576,7 @@ h2{
 		height: auto;
 	}
 	&__media{
+		transition: all 0.3s;
 		cursor: pointer;
 		display: block;
 		width: 120px;
