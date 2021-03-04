@@ -273,7 +273,7 @@ p {
   height: 528px;
   -webkit-filter: grayscale(100) brightness(110%);
           filter: grayscale(100) brightness(110%);
-  background-image: url("img/frame.jpg");
+  background-image: url(../img/frame.jpg);
   background-repeat: repeat;
   background-size: 300px 300px;
   -webkit-box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.644), 0px 10px 10px rgba(41, 41, 41, 0.644);
@@ -286,7 +286,7 @@ p {
   display: block;
   height: 371px;
   width: 261px;
-  background-image: url(img/portrait.jpg);
+  background-image: url(../img/portrait.jpg);
   background-position: center;
   -webkit-box-shadow: inset 0px 0px 20px black;
           box-shadow: inset 0px 0px 20px black;
@@ -681,7 +681,7 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 5%;
-  background-image: url(img/longbar.webp);
+  background-image: url(../img/longbar.webp);
   background-size: cover;
 }
 
@@ -701,7 +701,7 @@ h2 {
   z-index: 2;
   background-clip: text;
   color: transparent;
-  background-image: url(img/longbar.webp);
+  background-image: url(../img/longbar.webp);
   background-size: cover;
   background-position: right;
   -webkit-background-clip: text;
